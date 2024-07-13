@@ -478,6 +478,7 @@ namespace DotNetTrainingBatch4.MvcChartApp.Controllers
 
             return View(model);
         }
+
         public IActionResult MonochromePieChart()
         {
             MonochromePieChartModel model = new MonochromePieChartModel();
